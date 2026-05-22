@@ -1,0 +1,130 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased dark:bg-slate-950 dark:text-slate-100;
+  font-family:
+    "Noto Sans", "Noto Sans Telugu", "Noto Sans Devanagari", "Noto Sans Tamil",
+    "Noto Sans Bengali", "Noto Sans Malayalam", "Noto Sans Kannada", "Noto Sans Gurmukhi",
+    "Noto Sans Arabic", "Noto Sans SC", "Noto Sans JP", "Noto Sans KR", "Noto Sans Thai",
+    ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    sans-serif;
+}
+
+.maplibregl-map {
+  height: 100%;
+  width: 100%;
+}
+
+.maplibregl-canvas-container.maplibregl-interactive {
+  touch-action: manipulation;
+}
+
+/*
+ * FullCalendar theming — toolbar / view switchers must stay readable in light + dark.
+ * Variables default at :root inside FC; we override on this wrapper only.
+ */
+.farm-calendar-shell {
+  color: rgb(15 23 42);
+  --fc-page-bg-color: transparent;
+  --fc-neutral-bg-color: rgb(248 250 252);
+  --fc-neutral-text-color: rgb(15 23 42);
+  --fc-border-color: rgb(226 232 240);
+  --fc-button-text-color: rgb(15 23 42);
+  --fc-button-bg-color: rgb(255 255 255);
+  --fc-button-border-color: rgb(203 213 225);
+  --fc-button-hover-bg-color: rgb(241 245 249);
+  --fc-button-hover-border-color: rgb(148 163 184);
+  --fc-button-active-bg-color: rgb(209 250 229);
+  --fc-button-active-border-color: rgb(16 185 129);
+  /* List plugin default hover is #f5f5f5 — scope a readable hover for light mode */
+  --fc-list-event-hover-bg-color: rgb(241 245 249);
+  --fc-today-bg-color: rgba(16 185 129 / 0.12);
+  --fc-highlight-color: rgba(16 185 129 / 0.16);
+}
+
+.farm-calendar-shell .fc-toolbar-title {
+  color: rgb(15 23 42);
+}
+
+.farm-calendar-shell .fc-scrollgrid-section-header .fc-scrollgrid-sync-inner,
+.farm-calendar-shell .fc-col-header-cell {
+  color: rgb(15 23 42);
+}
+
+.farm-calendar-shell .fc-list-table th {
+  color: rgb(15 23 42);
+  background-color: rgb(248 250 252);
+}
+
+.dark .farm-calendar-shell {
+  color: rgb(241 245 249);
+  --fc-page-bg-color: transparent;
+  --fc-neutral-bg-color: rgb(30 41 59);
+  --fc-neutral-text-color: rgb(226 232 240);
+  --fc-border-color: rgb(51 65 85);
+  --fc-button-text-color: rgb(248 250 252);
+  --fc-button-bg-color: rgb(51 65 85);
+  --fc-button-border-color: rgb(71 85 105);
+  --fc-button-hover-bg-color: rgb(71 85 105);
+  --fc-button-hover-border-color: rgb(100 116 139);
+  /* Flat emerald-800 looked harsh; use a tinted wash instead */
+  --fc-button-active-bg-color: rgb(30 58 52);
+  --fc-button-active-border-color: rgb(52 211 153);
+  /* Critical: list plugin defaults hover to #f5f5f5 — fixes white-on-white with dark text */
+  --fc-list-event-hover-bg-color: rgb(51 65 85);
+  /* Softer “today” / drag-selection than default yellow wash */
+  --fc-today-bg-color: rgba(45 212 191 / 0.06);
+  --fc-highlight-color: rgba(45 212 191 / 0.12);
+}
+
+.dark .farm-calendar-shell .fc-toolbar-title {
+  color: rgb(241 245 249);
+}
+
+.dark .farm-calendar-shell .fc-scrollgrid-section-header .fc-scrollgrid-sync-inner,
+.dark .farm-calendar-shell .fc-col-header-cell {
+  color: rgb(226 232 240);
+}
+
+.dark .farm-calendar-shell .fc-list-table th {
+  color: rgb(226 232 240);
+  background-color: rgb(30 41 59);
+}
+
+/* List rows: keep body text on-theme (hover uses --fc-list-event-hover-bg-color above) */
+.farm-calendar-shell .fc-list-event td {
+  color: rgb(15 23 42);
+}
+
+.dark .farm-calendar-shell .fc-list-event td {
+  color: rgb(226 232 240);
+}
+
+.dark .farm-calendar-shell .fc-list-event:hover td {
+  color: rgb(248 250 252);
+}
+
+/* Today band in list view — subtle, not loud green */
+.dark .farm-calendar-shell .fc-list-day.fc-day-today .fc-list-day-cushion {
+  background-color: rgba(45 212 191 / 0.07);
+}
+
+.farm-calendar-shell .fc-list-day.fc-day-today .fc-list-day-cushion {
+  background-color: rgba(16 185 129 / 0.08);
+}
+
+.dark .farm-calendar-shell .fc-list-day.fc-day-today .fc-list-day-text,
+.dark .farm-calendar-shell .fc-list-day.fc-day-today .fc-list-day-side-text {
+  color: rgb(204 251 241);
+}
+
+/* Grid/time views use .fc-day-today { background: var(--fc-today-bg-color) } — tuned above */

@@ -1,0 +1,106 @@
+{
+  "app": { "name": "FarmDots" },
+  "loading": {
+    "database": "स्थानीय डेटाबेस लोड हो रहा है…",
+    "generic": "लोड हो रहा है…"
+  },
+  "database": {
+    "error": {
+      "title": "स्थानीय डेटाबेस (IndexedDB) नहीं खुल सका.",
+      "hint": "सामान्य (निजी नहीं) विंडो आज़माएँ, localhost के लिए साइट डेटा अनुमति दें, या साइट डेटा हटाकर पुनः लोड करें."
+    }
+  },
+  "actions": {
+    "reload": "पुनः लोड",
+    "cancel": "रद्द करें",
+    "done": "पूर्ण",
+    "undoPoint": "बिंदु पूर्ववत",
+    "farm": "खेत",
+    "addFarm": "खेत जोड़ें",
+    "deleteFarm": "खेत हटाएँ",
+    "renameFarm": "नाम बदलें…",
+    "export": "निर्यात",
+    "syncCloud": "क्लाउड सिंक",
+    "fillFarm": "खेत भरें"
+  },
+  "nav": {
+    "map": "नक्शा",
+    "workspace": "वर्कस्पेस",
+    "calendar": "कैलेंडर",
+    "sim": "सिम"
+  },
+  "farm": {
+    "select": "खेत चुनें",
+    "label": "खेत",
+    "notFound": "यह खेत स्थानीय रूप से नहीं मिला."
+  },
+  "search": {
+    "placeholder": "स्थान खोजें…",
+    "go": "जाएँ",
+    "myLocation": "मेरे स्थान पर ज़ूम करें"
+  },
+  "units": {
+    "format": "इकाइयाँ: {value}",
+    "metric": "मेट्रिक",
+    "imperial": "इंपीरियल"
+  },
+  "drawFarm": {
+    "instruction": "सीमा अंकित करने के लिए मानचित्र पर टैप करें (3+ बिंदु). <0>Enter</0> समाप्त करता है, <1>Esc</1> रद्द करता है."
+  },
+  "placeValve": {
+    "instruction": "वाल्व रखने के लिए मानचित्र पर टैप करें."
+  },
+  "language": {
+    "label": "भाषा"
+  },
+  "mapPage": {
+    "appBrand": "FarmDots",
+    "area": "क्षेत्रफल",
+    "perimeter": "परिधि",
+    "centroid": "केंद्रक",
+    "reverseGeocoding": "रिवर्स जियोकोडिंग…",
+    "primaryCrop": "मुख्य फसल",
+    "cropNotSet": "सेट नहीं",
+    "mapTint": "ओवरले",
+    "overlayOff": "बंद",
+    "keyboardHint": "खोज",
+    "commandPalette": "कमांड पैलेट"
+  },
+  "toasts": {
+    "primaryCropSet": "मुख्य फसल: {name}",
+    "primaryCropCleared": "मुख्य फसल हटा दी गई।",
+    "boundaryUpdated": "खेत की सीमा अपडेट हो गई।",
+    "addThreeCorners": "खेत की सीमा बंद करने के लिए कम से कम 3 कोने जोड़ें।",
+    "outlineNoArea": "उस रूपरेखा में कोई क्षेत्रफल नहीं है। बिंदुओं को समायोजित करके पुनः प्रयास करें।",
+    "gridReplaceFailed": "ग्रिड बदला नहीं जा सका।",
+    "gridFilled": "खेत भर गया — {plants} पौधे {rows} पंक्तियों में ({rowMode}, {bearing}° दिशा)।",
+    "gridFilledRowsAuto": "अंतराल से {count} पंक्तियाँ",
+    "gridFilledRowsManual": "मैन्युअल पंक्तियाँ",
+    "exportsDone": "निर्यात डाउनलोड हो गए।",
+    "searchNoPlaces": "कोई स्थान नहीं मिला — दूसरे शब्द आज़माएँ।",
+    "searchFailed": "खोज विफल",
+    "geoUnavailable": "इस ब्राउज़र में जियोलोकेशन उपलब्ध नहीं है।",
+    "deleteFarmFailed": "खेत हटाने में विफल",
+    "syncedCloud": "क्लाउड के साथ सिंक हो गया।",
+    "syncFailed": "सिंक विफल",
+    "farmCreated": "खेत \"{name}\" बनाया गया।",
+    "farmRenamed": "खेत का नाम \"{name}\" रखा गया।",
+    "farmDeleted": "\"{name}\" और उसके सभी पौधे, पंक्तियाँ और वाल्व हटा दिए गए।",
+    "syncedShort": "सिंक हो गया।"
+  },
+  "dialogs": {
+    "deleteFarmTitle": "यह खेत हटाएँ?",
+    "deleteFarmThisFarm": "यह खेत",
+    "deleteFarmBody": "<bold>{{name}}</bold> और इसके अंदर की हर चीज़ — पौधे, पंक्तियाँ, वाल्व, सिंचाई लॉग और रोग इतिहास — इस डिवाइस से स्थायी रूप से हटा दी जाएगी। इसे पूर्ववत नहीं किया जा सकता।",
+    "renameFarmTitle": "खेत का नाम बदलें",
+    "newFarmTitle": "अपने खेत का नाम",
+    "renameFarmDescription": "इस खेत के साथ संग्रहीत प्रदर्शन नाम अपडेट करें।",
+    "newFarmDescription": "इस सीमा के लिए एक लेबल चुनें। बाद में खेत मेनू से बदल सकते हैं।",
+    "farmNameLabel": "खेत का नाम",
+    "saving": "सहेजा जा रहा है…",
+    "saveName": "नाम सहेजें",
+    "createFarm": "खेत बनाएँ",
+    "deleting": "हटाया जा रहा है…",
+    "deleteFarm": "खेत हटाएँ"
+  }
+}

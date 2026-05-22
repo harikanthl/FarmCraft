@@ -1,0 +1,23 @@
+{
+  "name": "@farmdots/worker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "build": "tsc --noEmit",
+    "test": "vitest run",
+    "lint": "echo \"skip\""
+  },
+  "dependencies": {
+    "@farmdots/shared": "workspace:*",
+    "hono": "^4.7.4"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250317.0",
+    "typescript": "^5.7.2",
+    "vitest": "^3.0.5",
+    "wrangler": "^4.12.0"
+  }
+}

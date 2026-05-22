@@ -1,0 +1,25 @@
+---
+description: User-visible UI copy must go through react-i18next, not raw JSX strings.
+globs: apps/web/src/**/*.tsx
+alwaysApply: false
+---
+
+# Internationalization (UI strings)
+
+## Policy
+
+- **Do not** add user-visible English (or any language) as raw text in JSX/TSX for `apps/web` — e.g. `<Button>Save</Button>`, `<span>Farm overview</span>`, `toast.error("Failed")`.
+- **Do** use `useTranslation`, `Trans`, or `t()` with keys under `apps/web/src/i18n/locales/en/*.json` (English is the canonical source). Prefer the right namespace (`common`, `workspace`, `calendar`, etc.).
+- **Legitimate exceptions** (keep as-is): `className`, `aria-hidden`, technical IDs, `console.*`, developer-only errors, user-generated data (farm names, API messages), and third-party widget text we do not control.
+
+## When adding copy
+
+1. Add or extend keys in `apps/web/src/i18n/locales/en/<namespace>.json`.
+2. Wire the component with `t("namespace:key")` or default namespace + relative key.
+3. For Indic or high-stakes domain terms, prefer hand curation or Sarvam/Gemini pipelines over blind machine translation; run `pnpm i18n:generate` only as a bootstrap when needed.
+
+## Namespaces
+
+Keep domain split: map chrome → `common`; workspace chrome → `workspace`; calendar → `calendar`; AI/voice UX → `assistant`; forms validation → `forms`.
+
+When adding a route, register its extra namespaces in `apps/web/src/i18n/routeNamespaces.ts` (`ROUTE_EXTRA_NAMESPACES` + `ROUTE_PATTERNS`). `common` and shell namespaces (`assistant`) load automatically; route-specific bundles load via `RouteNamespaceGate`.

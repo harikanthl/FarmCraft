@@ -1,0 +1,10 @@
+{
+  "crop": {
+    "mango": "Mango",
+    "banana": "Banana",
+    "coconut": "Coconut",
+    "chili": "Chili",
+    "guava": "Guava",
+    "papaya": "Papaya"
+  }
+}

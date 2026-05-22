@@ -1,0 +1,32 @@
+name = "farmdots-worker"
+main = "src/index.ts"
+compatibility_date = "2025-02-01"
+
+[vars]
+AUTH_DEV_TOKEN = ""
+# When "true", `/api/v1/auth/request-login` returns the magic code in its
+# response (useful in local dev). Disable in production.
+AUTH_DEV_MODE = "true"
+# Verified sender used when delivering login codes via Cloudflare Mailchannels.
+# Leave blank to skip email delivery (dev mode + devCode response only).
+EMAIL_FROM = ""
+# Optional analytics service (R Plumber). Leave blank to disable /api/v1/analytics/*.
+ANALYTICS_R_URL = ""
+# Secret in production via `wrangler secret put ANALYTICS_R_TOKEN`.
+ANALYTICS_R_TOKEN = ""
+
+[[d1_databases]]
+binding = "DB"
+database_name = "farmdots"
+database_id = "00000000-0000-4000-8000-000000000001"
+
+[[r2_buckets]]
+binding = "ASSETS"
+bucket_name = "farmdots-assets"
+
+[triggers]
+# Phase 3: weather snapshots + intelligence (every 3h UTC). Phase 4 overlay stub ~12:30 IST.
+crons = ["0 */3 * * *", "0 19 * * *"]
+
+[observability]
+enabled = true

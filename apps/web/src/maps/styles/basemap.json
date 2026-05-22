@@ -1,0 +1,12 @@
+{
+  "version": 8,
+  "name": "farmdots-basemap-stub",
+  "sources": {
+    "basemap": {
+      "type": "vector",
+      "url": "pmtiles://https://example.invalid/farmdots/basemap.pmtiles",
+      "attribution": "Replace URL with your R2-hosted PMTiles (see scripts/build-pmtiles/README.md)."
+    }
+  },
+  "layers": []
+}

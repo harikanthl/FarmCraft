@@ -1,0 +1,47 @@
+{
+  "overlay": {
+    "label": "ओवरले",
+    "off": "बंद",
+    "yield": "उपज बैंड",
+    "disease": "रोग दबाव",
+    "irrigation": "सिंचाई ताज़गी"
+  },
+  "editPlants": "{count, plural, one {# पौधा संपादित करें…} other {# पौधे संपादित करें…}}",
+  "farm": {
+    "notFound": "यह खेत स्थानीय रूप से नहीं मिला."
+  },
+  "sidebar": {
+    "farmCalendar": "खेत कैलेंडर",
+    "farmOverview": "खेत सारांश",
+    "liveCountsHint": "आपके डिवाइस डेटाबेस से लाइव गिनती।",
+    "geometry": "ज्यामिति",
+    "rows": "पंक्तियाँ",
+    "plants": "पौधे",
+    "valves": "वाल्व",
+    "alerts": "अलर्ट",
+    "plantHealthFlags": "पौध स्वास्थ्य चिह्न",
+    "diseaseEvents": "रोग घटनाएँ"
+  },
+  "valve": {
+    "label": "वाल्व",
+    "nextIrrigation": "अगला सिंचाई (कैलेंडर):",
+    "noUpcoming": "इस वाल्व के लिए कैलेंडर पर कोई आगामी सिंचाई नहीं है।",
+    "name": "नाम",
+    "status": "स्थिति",
+    "save": "सहेजें",
+    "close": "बंद करें",
+    "farmIdHint": "खेत",
+    "valveIdHint": "वाल्व",
+    "statusUnknown": "अज्ञात",
+    "statusOpen": "खुला",
+    "statusClosed": "बंद",
+    "statusFault": "खराबी"
+  },
+  "sheets": {
+    "plantDetails": "पौध विवरण",
+    "valveDetails": "वाल्व विवरण"
+  },
+  "loadingFarm": "खेत लोड हो रहा है…",
+  "missingFarmId": "खेत आईडी गायब है।",
+  "simHint": "वैकल्पिक PixiJS दृश्य"
+}

@@ -1,0 +1,47 @@
+{
+  "overlay": {
+    "label": "ఓవర్‌లే",
+    "off": "ఆఫ్",
+    "yield": "దిగుబడి బ్యాండ్",
+    "disease": "వ్యాధి ఒత్తిడి",
+    "irrigation": "నీటిపారుదల తాజాదనం"
+  },
+  "editPlants": "{count, plural, one {# మొక్కను సవరించు…} other {# మొక్కలను సవరించు…}}",
+  "farm": {
+    "notFound": "ఈ పొలం స్థానికంగా దొరకలేదు."
+  },
+  "sidebar": {
+    "farmCalendar": "పొల క్యాలెండర్",
+    "farmOverview": "పొల సంగ్రహం",
+    "liveCountsHint": "మీ పరికర డేటాబేస్ నుండి ప్రత్యక్ష లెక్కలు.",
+    "geometry": "జ్యామితి",
+    "rows": "వరుసలు",
+    "plants": "మొక్కలు",
+    "valves": "వాల్వులు",
+    "alerts": "హెచ్చరికలు",
+    "plantHealthFlags": "మొక్క ఆరోగ్య గుర్తులు",
+    "diseaseEvents": "వ్యాధి సంఘటనలు"
+  },
+  "valve": {
+    "label": "వాల్వ్",
+    "nextIrrigation": "తదుపరి నీటిపారుదల (క్యాలెండర్):",
+    "noUpcoming": "ఈ వాల్వ్ కోసం క్యాలెండర్‌లో తదుపరి నీటిపారుదల లేదు.",
+    "name": "పేరు",
+    "status": "స్థితి",
+    "save": "సేవ్",
+    "close": "మూసివేయి",
+    "farmIdHint": "పొలం",
+    "valveIdHint": "వాల్వ్",
+    "statusUnknown": "తెలియదు",
+    "statusOpen": "తెరిచి",
+    "statusClosed": "మూసి",
+    "statusFault": "లోపం"
+  },
+  "sheets": {
+    "plantDetails": "మొక్క వివరాలు",
+    "valveDetails": "వాల్వ్ వివరాలు"
+  },
+  "loadingFarm": "పొలం లోడ్ అవుతోంది…",
+  "missingFarmId": "పొలం గుర్తింపు లేదు.",
+  "simHint": "ఐచ్ఛిక PixiJS దృశ్యీకరణ"
+}

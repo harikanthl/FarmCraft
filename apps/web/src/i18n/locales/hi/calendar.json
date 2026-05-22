@@ -1,0 +1,53 @@
+{
+  "operation": {
+    "irrigation": "सिंचाई",
+    "harvest": "कटाई",
+    "disease_check": "रोग जाँच",
+    "fertilizer": "उर्वरक",
+    "spraying": "छिड़काव",
+    "pruning": "छँटाई",
+    "soil_test": "मिट्टी परीक्षण",
+    "other": "अन्य"
+  },
+  "page": {
+    "title": "संचालन कैलेंडर",
+    "map": "नक्शा",
+    "workspace": "वर्कस्पेस",
+    "aiDrafts": "AI मसौदे",
+    "missingFarmId": "खेत आईडी गायब है।",
+    "aiDialogTitle": "AI मसौदा संचालन",
+    "aiDialogDescription": "Gemini केवल मसौदा इवेंट प्रस्तावित करता है। जब तक आप कार्ड की पुष्टि नहीं करते, कुछ सहेजा नहीं जाता।",
+    "aiPromptLabel": "आप क्या शेड्यूल करना चाहते हैं?",
+    "aiPromptPlaceholder": "उदा. अगले सप्ताह में हर दूसरे दिन ड्रिप सिंचाई शेड्यूल करें…",
+    "aiGenerate": "मसौदे बनाएँ",
+    "aiGenerating": "बन रहा है…",
+    "aiClose": "बंद करें"
+  },
+  "toasts": {
+    "moveEventFailed": "इवेंट स्थानांतरित नहीं किया जा सका।",
+    "resizeRecurringHint": "मास्टर इवेंट संपादित करके श्रृंखला की समाप्ति समय बदलें (आवर्ती उदाहरण निश्चित लंबाई के रहते हैं)।",
+    "resizeEventFailed": "इवेंट का आकार नहीं बदला जा सका।",
+    "aiRequestFailed": "AI अनुरोध विफल।",
+    "invalidDraftTimes": "अमान्य मसौदा समय।",
+    "draftSaved": "मसौदा इवेंट के रूप में सहेजा गया।"
+  },
+  "today": {
+    "title": "आज",
+    "opsCount": "{count, plural, one {# कार्य} other {# कार्य}}",
+    "nothingScheduled": "आज के लिए कुछ निर्धारित नहीं है।",
+    "typeWater": "पानी",
+    "typeHarvest": "कटाई",
+    "typeDisease": "रोग",
+    "openCalendar": "कैलेंडर खोलें"
+  },
+  "eventStatus": {
+    "planned": "नियोजित",
+    "in_progress": "प्रगति में",
+    "completed": "पूर्ण",
+    "skipped": "छोड़ा गया",
+    "missed": "छूट गया"
+  },
+  "weatherHint": {
+    "rain24h": "अगले 24 घंटों में बारिश की संभावना है — सिंचाई स्थगित करने पर विचार करें।"
+  }
+}

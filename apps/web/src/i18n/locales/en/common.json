@@ -1,0 +1,110 @@
+{
+  "app": { "name": "FarmDots" },
+  "loading": {
+    "database": "Loading local database…",
+    "generic": "Loading…"
+  },
+  "database": {
+    "error": {
+      "title": "Could not open local database (IndexedDB).",
+      "hint": "Try a normal (non-private) window, allow site data for localhost, or clear site data and reload."
+    }
+  },
+  "actions": {
+    "reload": "Reload",
+    "cancel": "Cancel",
+    "done": "Done",
+    "undoPoint": "Undo point",
+    "farm": "Farm",
+    "addFarm": "Add farm",
+    "deleteFarm": "Delete farm",
+    "renameFarm": "Rename farm…",
+    "export": "Export",
+    "syncCloud": "Sync cloud",
+    "fillFarm": "Fill farm"
+  },
+  "nav": {
+    "map": "Map",
+    "workspace": "Workspace",
+    "calendar": "Calendar",
+    "sim": "Sim"
+  },
+  "farm": {
+    "select": "Select farm",
+    "label": "Farms",
+    "notFound": "Farm not found locally."
+  },
+  "search": {
+    "placeholder": "Search place…",
+    "go": "Go",
+    "myLocation": "Zoom to my location"
+  },
+  "units": {
+    "format": "Units: {value}",
+    "metric": "metric",
+    "imperial": "imperial"
+  },
+  "drawFarm": {
+    "instruction": "Tap the map to trace the boundary (3+ points). <0>Enter</0> finishes, <1>Esc</1> cancels."
+  },
+  "placeValve": {
+    "instruction": "Tap map to place valve."
+  },
+  "language": {
+    "label": "Language"
+  },
+  "mapPage": {
+    "appBrand": "FarmDots",
+    "area": "Area",
+    "perimeter": "Perimeter",
+    "centroid": "Centroid",
+    "reverseGeocoding": "Reverse geocoding…",
+    "primaryCrop": "Primary crop",
+    "cropNotSet": "Not set",
+    "mapTint": "Overlay",
+    "overlayOff": "Off",
+    "keyboardHint": "Search",
+    "commandPalette": "Command palette",
+    "insightsPane": {
+      "show": "Show insights panel",
+      "hide": "Hide insights panel"
+    }
+  },
+  "toasts": {
+    "primaryCropSet": "Primary crop: {name}",
+    "primaryCropCleared": "Primary crop cleared",
+    "boundaryUpdated": "Farm boundary updated.",
+    "addThreeCorners": "Add at least 3 corners to close a farm boundary.",
+    "outlineNoArea": "That outline has no area. Adjust the points and try again.",
+    "gridReplaceFailed": "Could not replace grid.",
+    "gridFilled": "Filled farm — {plants} plants in {rows} rows ({rowMode}, bearing {bearing}°).",
+    "gridFilledRowsAuto": "{count} rows from spacing",
+    "gridFilledRowsManual": "manual rows",
+    "exportsDone": "Exports downloaded.",
+    "searchNoPlaces": "No places found — try another wording.",
+    "searchFailed": "Search failed",
+    "geoUnavailable": "Geolocation is not available in this browser.",
+    "deleteFarmFailed": "Failed to delete farm",
+    "syncedCloud": "Synced with cloud.",
+    "syncFailed": "Sync failed",
+    "farmCreated": "Farm \"{name}\" created.",
+    "farmRenamed": "Farm renamed to \"{name}\".",
+    "farmDeleted": "Deleted \"{name}\" and all of its plants, rows, and valves.",
+    "syncedShort": "Synced."
+  },
+  "dialogs": {
+    "deleteFarmTitle": "Delete this farm?",
+    "deleteFarmThisFarm": "This farm",
+    "deleteFarmBody": "<bold>{{name}}</bold> and everything inside it — plants, rows, valves, irrigation logs, and disease history — will be permanently removed from this device. This can't be undone.",
+    "renameFarmTitle": "Rename farm",
+    "newFarmTitle": "Name your farm",
+    "renameFarmDescription": "Update the display name stored with this farm on your device.",
+    "newFarmDescription": "Choose a label for this boundary. You can change it later from the farm menu.",
+    "farmNameLabel": "Farm name",
+    "saving": "Saving…",
+    "saveName": "Save name",
+    "createFarm": "Create farm",
+    "deleting": "Deleting…",
+    "deleteFarm": "Delete farm"
+  }
+}

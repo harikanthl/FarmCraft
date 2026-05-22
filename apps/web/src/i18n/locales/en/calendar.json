@@ -1,0 +1,50 @@
+{
+  "operation": {
+    "irrigation": "Irrigation",
+    "harvest": "Harvest",
+    "disease_check": "Disease check",
+    "fertilizer": "Fertilizer",
+    "spraying": "Spraying",
+    "pruning": "Pruning",
+    "soil_test": "Soil test",
+    "other": "Other"
+  },
+  "page": {
+    "title": "Operations calendar",
+    "map": "Map",
+    "workspace": "Workspace",
+    "aiDrafts": "AI drafts",
+    "missingFarmId": "Missing farm id.",
+    "aiDialogTitle": "AI draft operations",
+    "aiDialogDescription": "Gemini proposes draft events only. Nothing is saved until you confirm a card.",
+    "aiPromptLabel": "What do you want scheduled?",
+    "aiPromptPlaceholder": "e.g. Schedule drip irrigation every other morning for the next week…",
+    "aiGenerate": "Generate drafts",
+    "aiGenerating": "Generating…",
+    "aiClose": "Close"
+  },
+  "toasts": {
+    "moveEventFailed": "Could not move event.",
+    "resizeRecurringHint": "Resize the series end-time by editing the master event (recurring instances stay fixed length).",
+    "resizeEventFailed": "Could not resize event.",
+    "aiRequestFailed": "AI request failed.",
+    "invalidDraftTimes": "Invalid draft times.",
+    "draftSaved": "Draft saved as event."
+  },
+  "weatherHint": {
+    "rain24h": "Rain is likely in the next 24 hours — consider delaying irrigation."
+  },
+  "today": {
+    "title": "Today",
+    "opsCount": "{count, plural, one {# op} other {# ops}}",
+    "nothingScheduled": "Nothing scheduled for today.",
+    "openCalendar": "Open calendar"
+  },
+  "eventStatus": {
+    "planned": "Planned",
+    "in_progress": "In progress",
+    "completed": "Completed",
+    "skipped": "Skipped",
+    "missed": "Missed"
+  }
+}

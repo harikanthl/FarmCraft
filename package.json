@@ -1,0 +1,19 @@
+{
+  "name": "farmdots",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --parallel -r dev",
+    "dev:web+worker": "pnpm --parallel --filter @farmdots/web --filter @farmdots/worker dev",
+    "dev:web": "pnpm --filter @farmdots/web dev",
+    "dev:worker": "pnpm --filter @farmdots/worker dev",
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "lint": "pnpm -r lint",
+    "i18n:generate": "node scripts/generate-i18n-mymemory.mjs",
+    "tiles:overlays": "bash scripts/build-pmtiles/build-overlay.sh"
+  },
+  "packageManager": "pnpm@9.15.0",
+  "engines": {
+    "node": ">=20"
+  }
+}

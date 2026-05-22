@@ -1,0 +1,53 @@
+{
+  "operation": {
+    "irrigation": "నీటిపారుదల",
+    "harvest": "పంట కోత",
+    "disease_check": "వ్యాధి తనిఖీ",
+    "fertilizer": "ఎరువు",
+    "spraying": "పిచికారీ",
+    "pruning": "కత్తిరింపు",
+    "soil_test": "నేల పరీక్ష",
+    "other": "ఇతర"
+  },
+  "page": {
+    "title": "కార్యకలాపాల క్యాలెండర్",
+    "map": "మ్యాప్",
+    "workspace": "కార్యక్షేత్రం",
+    "aiDrafts": "AI ముసాయిదాలు",
+    "missingFarmId": "పొలం గుర్తింపు లేదు.",
+    "aiDialogTitle": "AI ముసాయిదా కార్యకలాపాలు",
+    "aiDialogDescription": "Gemini ముసాయిదా ఈవెంట్లను మాత్రమే ప్రతిపాదిస్తుంది. మీరు కార్డును నిర్ధారించే వరకు ఏదీ సేవ్ కాదు.",
+    "aiPromptLabel": "మీరు ఏమి షెడ్యూల్ చేయాలనుకుంటున్నారు?",
+    "aiPromptPlaceholder": "ఉదా. వచ్చే వారం ప్రతి రెండో రోజు డ్రిప్ నీటిపారుదల షెడ్యూల్ చేయండి…",
+    "aiGenerate": "ముసాయిదాలు రూపొందించు",
+    "aiGenerating": "రూపొందిస్తోంది…",
+    "aiClose": "మూసివేయి"
+  },
+  "toasts": {
+    "moveEventFailed": "ఈవెంట్ తరలించలేకపోయాం.",
+    "resizeRecurringHint": "మాస్టర్ ఈవెంట్‌ను సవరించడం ద్వారా శ్రేణి ముగింపు సమయాన్ని మార్చండి (పునరావృత ఉదాహరణలు స్థిత పొడవులో ఉంటాయి).",
+    "resizeEventFailed": "ఈవెంట్ పరిమాణం మార్చలేకపోయాం.",
+    "aiRequestFailed": "AI అభ్యర్థన విఫలమైంది.",
+    "invalidDraftTimes": "చెల్లని ముసాయిదా సమయాలు.",
+    "draftSaved": "ముసాయిదా ఈవెంట్‌గా సేవ్ అయ్యింది."
+  },
+  "today": {
+    "title": "ఈరోజు",
+    "opsCount": "{count, plural, one {# కార్యం} other {# కార్యకలాపాలు}}",
+    "nothingScheduled": "ఈరోజు ఏదీ షెడ్యూల్ చేయబడలేదు.",
+    "typeWater": "నీరు",
+    "typeHarvest": "పంట కోత",
+    "typeDisease": "వ్యాధి",
+    "openCalendar": "క్యాలెండర్ తెరవండి"
+  },
+  "eventStatus": {
+    "planned": "యోజితం",
+    "in_progress": "ప్రగతిలో",
+    "completed": "పూర్తయింది",
+    "skipped": "దాటవేయబడింది",
+    "missed": "తప్పిపోయింది"
+  },
+  "weatherHint": {
+    "rain24h": "మరుసటి 24 గంటల్లో వర్షం అవకాశం ఉంది — నీటిపారుదలను వాయిదా వేసుకోవడం పరిగణించండి."
+  }
+}

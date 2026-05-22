@@ -1,0 +1,14 @@
+# Copy to `.dev.vars` (same folder) — that file is gitignored.
+# Wrangler loads these for `pnpm dev` / `wrangler dev` in apps/worker.
+#
+# Weather uses Open-Meteo (https://open-meteo.com/) — no key required.
+#
+# Optional — AI routes:
+# GEMINI_API_KEY=
+#
+# Optional — Sarvam AI voice stack (STT / TTS / translate):
+# SARVAM_API_KEY=
+#
+# Optional — BFF to R Plumber (see apps/analytics-r/README.md):
+# ANALYTICS_R_URL=
+# ANALYTICS_R_TOKEN=

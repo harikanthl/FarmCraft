@@ -1,0 +1,43 @@
+{
+  "mic": {
+    "idle": "Hold to speak",
+    "recording": "Listening…",
+    "transcribing": "Transcribing…",
+    "parsing": "Understanding…",
+    "ready": "Ready",
+    "speaking": "Replying…",
+    "error": "Microphone unavailable"
+  },
+  "draft": {
+    "title": "Voice draft",
+    "summary": "Review the draft before adding it to your calendar.",
+    "confirm": "Confirm",
+    "edit": "Edit",
+    "discard": "Discard",
+    "clarify": "Clarify",
+    "autoBadge": "Auto-detected",
+    "needsConfirmBadge": "Needs confirmation",
+    "copilot": "Answer"
+  },
+  "clarification": {
+    "title": "Just to make sure",
+    "submit": "Send",
+    "placeholder": "Add the missing detail…"
+  },
+  "transcript": {
+    "label": "Transcript",
+    "detected": "Detected language: {value}"
+  },
+  "tts": {
+    "scheduled": "Irrigation scheduled.",
+    "rescheduled": "Operation rescheduled.",
+    "cancelled": "Operation cancelled.",
+    "completed": "Marked complete.",
+    "error": "Couldn't save that just now."
+  },
+  "error": {
+    "noFarm": "Select a farm first.",
+    "savedOffline": "Saved offline. Will sync when you reconnect.",
+    "empty": "I didn't catch that — try again."
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "overlay": {
+    "label": "Overlay",
+    "off": "Off",
+    "yield": "Yield band",
+    "disease": "Disease pressure",
+    "irrigation": "Irrigation recency"
+  },
+  "editPlants": "{count, plural, one {Edit # plant…} other {Edit # plants…}}",
+  "farm": {
+    "notFound": "Farm not found locally."
+  },
+  "sidebar": {
+    "farmCalendar": "Farm calendar",
+    "farmOverview": "Farm overview",
+    "liveCountsHint": "Live counts from your device database.",
+    "geometry": "Geometry",
+    "rows": "Rows",
+    "plants": "Plants",
+    "valves": "Valves",
+    "alerts": "Alerts",
+    "plantHealthFlags": "Plant health flags",
+    "diseaseEvents": "Disease events"
+  },
+  "valve": {
+    "label": "Valve",
+    "nextIrrigation": "Next irrigation (calendar):",
+    "noUpcoming": "No upcoming irrigation on the calendar for this valve.",
+    "name": "Name",
+    "status": "Status",
+    "save": "Save",
+    "close": "Close",
+    "farmIdHint": "Farm",
+    "valveIdHint": "valve",
+    "statusUnknown": "unknown",
+    "statusOpen": "open",
+    "statusClosed": "closed",
+    "statusFault": "fault"
+  },
+  "sheets": {
+    "plantDetails": "Plant details",
+    "valveDetails": "Valve details"
+  },
+  "loadingFarm": "Loading farm…",
+  "missingFarmId": "Missing farm id.",
+  "simHint": "Optional PixiJS visualisation"
+}
